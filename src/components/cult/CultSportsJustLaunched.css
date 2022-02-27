@@ -1,0 +1,44 @@
+#SameLine {
+  display: flex;
+}
+
+#JustLaunched {
+  font-size: 18px;
+  margin-left: 75px;
+  font-weight: 100;
+}
+
+#Seeall {
+  color: #ff3278;
+  font-size: 14px;
+  margin-left: 1000px;
+}
+
+#SeamlessCollection {
+  font-size: 14px;
+  color: #9ba8c5;
+  margin-left: 75px;
+}
+
+#JustLaunchedCards {
+  display: flex;
+  margin-left: 65px;
+}
+
+.JustLaunchedImages {
+  margin-left: 10px;
+}
+
+.JustLaunchedImage {
+  height: 308px;
+  width: 231px;
+}
+
+.JustLaunchedText {
+  font-size: 12px;
+  color: #adadad;
+}
+
+.JustLaunchedPrice {
+  font-weight: 700;
+}

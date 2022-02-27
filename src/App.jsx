@@ -20,6 +20,7 @@ import { Footwear } from "./components/cult/CultSportStore/Footwear";
 import { SpinBikes } from "./components/cult/CultSportStore/SpinBikes";
 import { Treadmills } from "./components/cult/CultSportStore/Treadmills";
 import { Women } from "./components/cult/CultSportStore/Women";
+import { Seeall } from "./components/cult/Seeall/Seeall.jsx";
 
 ////////////firebase
 import { auth, db } from "./firebase-config";
@@ -90,6 +91,7 @@ function App() {
         <Route path="/store/gear/landing/SpinBike" element={<SpinBikes />} />
         <Route path="/store/gear/landing/Treadmill" element={<Treadmills />} />
         <Route path="/store/gear/landing/women-2021" element={<Women />} />
+        <Route path="/store/gear/landing/Seeall" element={<Seeall />} />
       </Routes>
       <Footer />
     </div>

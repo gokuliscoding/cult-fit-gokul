@@ -14,6 +14,7 @@ import { AiOutlineDown } from "react-icons/ai";
 import "./CultSportBestSellers.css";
 import { CultSportBestSellers } from "./CultSportBestSellers";
 import { Link } from "react-router-dom";
+import { CultSportsJustLaunched } from "./CultSportsJustLaunched";
 
 export const CultSport = () => {
   const data = {
@@ -325,6 +326,8 @@ export const CultSport = () => {
       </div>
 
       <CultSportBestSellers />
+
+      <CultSportsJustLaunched />
 
       <Faq data={data} styles={styles} config={config} />
     </>
