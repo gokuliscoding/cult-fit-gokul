@@ -1,0 +1,41 @@
+#BestSellers {
+  font-size: 18px;
+  margin-left: 75px;
+}
+
+#LovedbyCultMembers {
+  color: #b5b69b;
+  margin-left: 75px;
+}
+
+#BestSellersImages {
+  display: flex;
+  margin-left: 60px;
+  margin-top: 25px;
+  margin-bottom: 50px;
+}
+
+.BestSellersImage {
+  width: 231px;
+  height: 308px;
+  margin-left: 15px;
+}
+
+.BestSellersTitle {
+  margin-left: 15px;
+  font-weight: 500;
+  font-size: 16px;
+  color: black;
+}
+
+.BestSellersSubtitle {
+  margin-left: 15px;
+  font-size: 14px;
+  color: #a4a4a4;
+}
+
+.BestSellersPrice {
+  margin-left: 15px;
+  font-size: 15px;
+  font-weight: 700;
+}
